@@ -1,2 +1,2 @@
 # school-work
-a collection on school assignments from my intro to c++ class
+A collection of assignments from my Programing Logic and Design class. 
