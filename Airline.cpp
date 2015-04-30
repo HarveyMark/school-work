@@ -1,7 +1,6 @@
 // Airline.cpp - This program determines if an airline passenger is 
 // eligible for a 25% discount. 
-// Harvey Mark
-#include <iostream>
+// Harvey Mark, ITSE 1329#include <iostream>
 #include <string>
 using namespace std;
 int main() 
