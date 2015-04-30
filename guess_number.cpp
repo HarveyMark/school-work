@@ -13,7 +13,7 @@ int main()
 
    
    srand((unsigned)time(NULL)); 
-   number = (rand() % 100) + 1; 
+   number = (rand() % 10) + 1; 
    	
   
    cout << "Do you want to guess a number? Enter y or n: " << endl;
@@ -22,7 +22,7 @@ int main()
 while(keepGoing == "y")
 {
       
-    cout << "Try to guess by entering a number between 1 and 100: ";
+    cout << "Try to guess by entering a number between 1 and 10: ";
     cin >> userNumber; 
      
   if(userNumber > number)
@@ -43,9 +43,18 @@ while(keepGoing == "y")
       {
         cout << "Try again!" << endl;
       }
+if(userNumber >= 11)
+  {
+    cout << "Too high!" << endl;
+  }
+
+  if(userNumber <= -1)
+  {
+    cout << "Too low!" << endl;
+  } 
 
 }
       
-     
+  
     return 0;
 } 
